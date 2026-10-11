@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the top places to visit in Kathmandu with this interactive image slider.">
+  <title>Places to Visit in Kathmandu | Kathmandu Guide</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="slider.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <nav class="wrap nav">
+    <a class="brand" href="#main">Kathmandu Guide</a>
+    <ul>
+      <li><a href="#places">Places</a></li>
+      <li><a href="#about">About Kathmandu</a></li>
+    </ul>
+  </nav>
+
+  <main class="wrap" id="main">
+    <header class="hero">
+      <p class="eyebrow">A little valley of temples</p>
+      <h1>Places to Visit in Kathmandu</h1>
+      <p>Explore seven landmarks in the heart of Nepal with a responsive, looping image slider.</p>
+    </header>
+
+    <section id="places">
+      <h2>Meet the Places</h2>
+      <p class="intro">Use the arrows or choose a dot to explore each place.</p>
+
+      <section class="slider" tabindex="0" aria-roledescription="carousel" aria-label="Kathmandu places">
+        <div class="slider-track">
+          <figure class="slide" role="group" aria-roledescription="slide" aria-label="1 of 7">
+            <img src="images/Swayambhu.jpeg" alt="Swayambhunath Stupa">
+            <figcaption>
+              <h2>Swayambhunath Stupa</h2>
+              <p>Explore the ancient Monkey Temple and enjoy breathtaking views of Kathmandu Valley.</p>
+            </figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slide" aria-label="2 of 7">
+            <img src="images/Boudhanath.jpg" alt="Boudhanath Stupa" loading="lazy">
+            <figcaption>
+              <h2>Boudhanath Stupa</h2>
+              <p>Discover a magnificent Buddhist stupa surrounded by prayer flags and peaceful monasteries.</p>
+            </figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slide" aria-label="3 of 7">
+            <img src="images/Pashupatinath.webp" alt="Pashupatinath Temple" loading="lazy">
+            <figcaption>
+              <h2>Pashupatinath Temple</h2>
+              <p>Experience Nepal's sacred Hindu heritage along the beautiful banks of the Bagmati River.</p>
+            </figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slide" aria-label="4 of 7">
+            <img src="images/Kathmandu Durbar Square.jpeg" alt="Kathmandu Durbar Square" loading="lazy">
+            <figcaption>
+              <h2>Kathmandu Durbar Square</h2>
+              <p>Explore historic palaces, ancient temples, and the beauty of traditional Newari architecture.</p>
+            </figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slide" aria-label="5 of 7">
+            <img src="images/Garden.webp" alt="Garden of Dreams" loading="lazy">
+            <figcaption>
+              <h2>Garden of Dreams</h2>
+              <p>Relax in a peaceful garden filled with beautiful greenery, fountains, and elegant architecture.</p>
+            </figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slide" aria-label="6 of 7">
+            <img src="images/Chandragiri.jpg" alt="Chandragiri Hills" loading="lazy">
+            <figcaption>
+              <h2>Chandragiri Hills</h2>
+              <p>Enjoy stunning Himalayan views, lush hills, and an unforgettable cable car experience.</p>
+            </figcaption>
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slide" aria-label="7 of 7">
+            <img src="images/Thamel.jpg" alt="Thamel" loading="lazy">
+            <figcaption>
+              <h2>Thamel</h2>
+              <p>Discover lively streets filled with cafés, restaurants, souvenir shops, and local culture.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <p class="slider-status"></p>
+    </section>
+
+    <div class="cards">
+      <section class="card" id="about">
+        <h2>Why visit Kathmandu?</h2>
+        <p>
+          Nepal's capital is a valley city where Hindu and Buddhist traditions share the same streets.
+          Its stupas, temples, and old royal squares sit minutes from gardens, cafés, and busy markets,
+          so one trip can cover heritage, relaxation, and mountain views.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Quick Kathmandu fact</h2>
+        <ul class="facts" aria-live="polite">
+          <li>Swayambhunath sits on a hilltop and offers wide views over Kathmandu Valley.</li>
+          <li hidden>Boudhanath is one of the largest stupas in the world and a centre of Tibetan Buddhism in Nepal.</li>
+          <li hidden>Pashupatinath is a major Hindu temple complex on the banks of the Bagmati River.</li>
+        </ul>
+        <button class="button next-fact" type="button">Next fact</button>
+      </section>
+    </div>
+  </main>
+
+  <footer class="wrap">Made with HTML, CSS, and vanilla JavaScript</footer>
+</body>
+</html>
